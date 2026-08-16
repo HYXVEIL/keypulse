@@ -1,0 +1,17 @@
+SFTP_HOST="example.com"
+SFTP_PORT="22"
+SFTP_USER="keypulse"
+
+REMOTE_DIR="/certs"
+LOCAL_DIR="/etc/keypulse/certs"
+
+FILES="
+cert.pem
+key.pem
+"
+
+SYNC_INTERVAL=20
+
+RELOAD_NGINX=false
+RELOAD_CADDY=false
+RELOAD_OPENRESTY=false
