@@ -97,7 +97,7 @@ install_server() {
     passwd keypulse
 
     info "Installing KeyPulse Server..."
-    mkdir -p /opt/keypulse-server/certs
+    mkdir -p /etc/keypulse-server/certs
     chown root:root /etc/keypulse-server
     chmod 755 /etc/keypulse-server
     chown keypulse:keypulse /etc/keypulse-server/certs
