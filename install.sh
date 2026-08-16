@@ -124,6 +124,7 @@ install_node() {
     wget https://github.com/HYXVEIL/keypulse/raw/refs/heads/main/sync.sh
     wget https://github.com/HYXVEIL/keypulse/raw/refs/heads/main/config
     wget https://github.com/HYXVEIL/keypulse/raw/refs/heads/main/sftp_password
+    chmod +x /etc/keypulse/sync.sh
     mkdir certs
     sudo chmod +x /etc/keypulse/keypulse.sh
     sudo ln -s /etc/keypulse/keypulse.sh /usr/local/bin/keypulse
