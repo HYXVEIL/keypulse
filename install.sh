@@ -91,7 +91,7 @@ install_server() {
     install_dependencies_server
 
     info "Creating user for KeyPulse Server..."
-    useradd -M -s /usr/sbin/nologin keypulse\
+    useradd -M -s /usr/sbin/nologin keypulse
     warning "Write strong password for KeyPulse"
     warning "You can change it by command: passwd keypulse"
     passwd keypulse
